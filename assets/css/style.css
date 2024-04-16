@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+  }
+
+
+  td {
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    border: 1px solid black;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+  }
+  
+  td > .name {
+    font-size: 9px;
+  }
+  
+  .empty {
+    border: none;
+  }
+  
+  .c1 {
+    background-color: #7b5ba7;
+  }
+  
+  .c2 {
+    background-color: #F27EB2;
+  }
+  
+  .c3 {
+    background-color: #F58132;
+  }
+  
+  .c4, .light-blue {
+    background-color: #1791ca;
+  }
+  
+  .c5, .green {
+    background-color: #08a848;
+  }
+  
+  .c6 {
+    background-color: #0a5e23;
+  }
+  
+  #line-one, .red {
+    background-color: #ee3432;
+  }
+  
+  #last-line, .purple {
+    background-color: #7B5BA7;
+  }
+  
+  .hydrogen {
+    background-color: #3B56A6;
+  }
+  
+  .empty {
+    background-color:white;
+  }
+  
+  .red, .purple {
+    font-size: 10px;
+    font-weight: normal;
+    padding: 20px 0px;
+  }
+
+  .water-green{
+    background-color: #42f0bb;
+  }
+
+  
+  @media only screen and (max-width: 950px){
+    table {
+      margin-bottom: 40px;
+    }
+  
+    caption {
+      font-size: 1em;
+    }
+
+    .subtitulo{
+        font-size: 0.5em;
+    }
+  
+    td {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .sigla {
+      font-size: 5px;
+    }
+  
+    td > .name {
+      font-size: 3px;
+    }
+    .red, .purple {
+      font-size: 3px;
+      font-weight: normal;
+      padding: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    table {
+      margin-bottom: 40px;
+    }
+  
+    caption {
+      font-size: 1em;
+    }
+
+    .subtitulo{
+        font-size: 0.5em;
+    }
+  
+  
+    td {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .sigla {
+      font-size: 4px;
+    }
+  
+    td > .name {
+      font-size: 2px;
+    }
+  
+    .red, .purple {
+      font-size: 3px;
+      font-weight: normal;
+      padding: 0px;
+    }
+  }
